@@ -1,6 +1,6 @@
 # include <stdio.h>
 /**
- * puts -  print, "Programming is like building a multilingual puzle 
+ * puts -  print, "Programming is like building a multilingual puzle
  *
  * Return: Always 0 (success)
  */
