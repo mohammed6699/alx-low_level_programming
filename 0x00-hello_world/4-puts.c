@@ -1,12 +1,11 @@
 # include <stdio.h>
 /**
- * puts -  print, "Programming is like building a multilingual puzzle 
+ * puts -  print, "Programming is like building a multilingual puzle 
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-char *text ="\"Programming is like building a multilingual puzzle" ;
-puts("text");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
