@@ -1,8 +1,9 @@
 # include <stdio.h>
 /**
+ *main - print line, print that line
+ *
  * This example demonstrates a basic example for main function
  *
- * It print out "Programming is like building a multilingual puzzle
  * Return: Always 0 (success)
  */
 int main(void)
