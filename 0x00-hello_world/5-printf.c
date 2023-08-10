@@ -8,6 +8,7 @@
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art, ");
+long long a = "with proper grammar, but the outcome is a piece of art,";
+printf("%lld\n", a);
 return (0);
 }
