@@ -21,6 +21,5 @@ for (ch2 = 'r'; ch2 <= 'z'; ch2++)
 {
 putchar (ch2);
 }
-putchar('\n');
 return (0);
 }
