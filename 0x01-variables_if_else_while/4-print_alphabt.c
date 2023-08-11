@@ -10,20 +10,18 @@ int main(void)
 {
 char ch1;
 char ch2;
-char ch3;
-for (ch1 = 'a'; ch1 >= 'e'; ch1++)
+for (ch1 = 'a'; ch1 >= 'p'; ch1++)
+{
+if (ch1 != 'e')
 {
 putchar (ch1);
 }
-for (ch2 = 'f'; ch2 >= 'p'; ch2++)
+}
+for (ch2 = 'r'; ch2 >= 'z'; ch2++)
 {
 putchar (ch2);
 }
-for (ch3 = 'r'; ch3 >= 'z'; ch3++)
-{
-putchar (ch3);
-}
-putchar('\n');
+
 return (0);
 }
 
