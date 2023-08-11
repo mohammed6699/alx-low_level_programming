@@ -19,7 +19,7 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0)
 {
-printf("98: is positive \n");
+printf("98 is positive \n");
 }
 else if (n == 0)
 {
@@ -27,7 +27,7 @@ printf("0 is zero \n");
 }
 else
 {
-printf("-98: is negative \n");
+printf("-98 is negative \n");
 }
 return (0);
 }
