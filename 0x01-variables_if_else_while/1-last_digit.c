@@ -20,7 +20,7 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 5)
 {
-printf("Last digit of 98 is 8 and greater than 5\n");
+printf("Last digit of 98 is 8 and is  greater than 5\n");
 }
 else if (n == 0)
 {
