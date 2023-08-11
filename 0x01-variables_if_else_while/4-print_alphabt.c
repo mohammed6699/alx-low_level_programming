@@ -12,14 +12,11 @@ char ch1;
 char ch2;
 for (ch1 = 'a'; ch1 <= 'p'; ch1++)
 {
-if (ch1 != 'e')
+if (ch1 != 'e' && ch1 != 'q')
 {
 putchar (ch1);
 }
-}
-for (ch2 = 'r'; ch2 <= 'z'; ch2++)
-{
-putchar (ch2);
+putchar ('\n');
 }
 return (0);
 }
