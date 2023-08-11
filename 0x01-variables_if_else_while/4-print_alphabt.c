@@ -21,7 +21,7 @@ putchar (ch2);
 }
 for (ch3 = 'r'; ch3 >= 'z'; ch3++)
 {
-putchar (ch3)
+putchar (ch3);
 }
 putchar('\n');
 return (0);
