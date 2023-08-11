@@ -1,8 +1,16 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ *main - if function
+ *
+ *basic use for if
+ *
+ *more headers goes there
+ *betty style doc for function main goes there
+ *
+ *Return: always 0 (success)
+ */
 int main(void)
 {
 int n;
@@ -11,15 +19,15 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0)
 {
-printf ("\npossitive\n");
+printf("\n possitive \n");
 }
 else if (n == 0)
 {
-printf ("\nZero\n")
+printf("\n Zero \n")
 }
 else
 {
-printf("\nnegative\n"):
+printf("\n negative \n");
 }
 return (0);
 }
