@@ -18,5 +18,6 @@ for (ch2 = 'a'; ch2 <= 'z'; ch2++)
 {
 putchar (ch2);
 }
+putchar('\n');
 return (0);
 }
