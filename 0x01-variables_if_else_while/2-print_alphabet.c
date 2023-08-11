@@ -1,15 +1,16 @@
-#include <stdio.h>
+# include <stdio.h>
 /**
- *main  - print alphapit
+ * main - print alphapit
  *
- *Basic use for main function
+ * The basic of main function
  *
- *Retairn: always 0 (seccess)
- **/
+ * Return: always 0 (success)
+ */
 int main(void)
 {
 char ch = 'a';
 for (ch = 'a'; ch <= 'z'; ch++)
+\n
 putchar (ch);
 return (0);
 }
