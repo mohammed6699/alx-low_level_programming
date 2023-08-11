@@ -6,7 +6,7 @@
  *
  *basic use for if
  *
- *more headers goes there
+ *more headers goes therie
  *betty style doc for function main goes there
  *
  *Return: always 0 (success)
@@ -23,7 +23,7 @@ printf("\n possitive \n");
 }
 else if (n == 0)
 {
-printf("\n Zero \n")
+printf("\n Zero \n");
 }
 else
 {
