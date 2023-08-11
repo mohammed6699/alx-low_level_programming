@@ -9,7 +9,6 @@
 int main(void)
 {
 char ch1;
-char ch2;
 for (ch1 = 'a'; ch1 <= 'p'; ch1++)
 {
 if (ch1 != 'e' && ch1 != 'q')
