@@ -12,7 +12,7 @@ int ch1 = 0;
 while (ch1 < 10)
 {
 putchar (ch1 + '0');
-if (ch1 < 10)
+if (ch1 < 9)
 {
 putchar (',');
 putchar (' ');
