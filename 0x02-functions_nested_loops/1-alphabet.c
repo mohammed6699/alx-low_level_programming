@@ -1,3 +1,4 @@
+# include "main.h"
 # include <stdio.h>
 /**
  * main - check code
@@ -9,7 +10,7 @@
 void print_alphabet(void)
 {
 char ch = 'a';
-for (ch = 'a'; ch <= 'z'; ch ++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(ch);
 }
