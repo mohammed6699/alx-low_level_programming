@@ -1,10 +1,6 @@
-#include "main.h"
+#ifndef MYHEADERS_H
+#define MYHEADERS_H
 
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
 void print_alphabet(void)
 {
 char ch = 'a';
