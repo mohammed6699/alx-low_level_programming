@@ -1,5 +1,4 @@
-#ifndef MYHEADERS_H
-#define MYHEADERS_H
+#ifndef main.h
 
 void print_alphabet(void)
 {
