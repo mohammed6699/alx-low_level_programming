@@ -15,7 +15,7 @@ if (c < 0)
 	printf ("%d", c);
 	return (-1*c);
 }
-else (c >= 0);
+else 
 {
 	c = c % 10;
 	return (c);
