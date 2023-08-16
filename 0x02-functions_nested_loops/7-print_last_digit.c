@@ -8,6 +8,15 @@
  */
 int print_last_digit(int c)
 {
-c = c % 10;
-return (c);
+if (c < 0)
+{
+	c = c % 10;
+	printf ("%d", c);
+	return (-1*c);
+}
+else (c >= 0)
+{
+	c = c % 10;
+	return (c);
+}
 }
