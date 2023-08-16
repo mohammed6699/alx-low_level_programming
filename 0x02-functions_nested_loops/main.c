@@ -7,11 +7,11 @@
 int main(void)
 {
 int c;
-c = islower('H');
+c = _islower('H');
 putchar(c + '0');
-c = islower('o');
+c = _islower('o');
 putchar(c + '0');
-c = islower(108);
+c = _islower(108);
 putchar(c + '0');
 putchar('\n');
 return (0);
