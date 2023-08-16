@@ -1,5 +1,5 @@
 # include "main.h"
-
+# include <stdio.h>
 /**
  *Print_minutes_in _day
  *
@@ -18,5 +18,5 @@ void jack_bauer(void)
 		minutes = i % 60;
 		printf ("%02d:%02d\n", hours, minutes);
 	}
-	return (0);
+	return void;
 }
