@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (success)
  */
-int _isalpha(int c)
+int _islower(int c)
 {
 if (c >= 'a' && c <= 'z' )
 {
