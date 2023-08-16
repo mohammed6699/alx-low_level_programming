@@ -4,7 +4,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+test_islower(void)
 {
 int c;
 c = islower('H');
