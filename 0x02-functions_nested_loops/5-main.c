@@ -1,4 +1,5 @@
-#include "main.h"
+# include <limits.h>
+# include "main.h"
 
 /**
  * main - check the code.
