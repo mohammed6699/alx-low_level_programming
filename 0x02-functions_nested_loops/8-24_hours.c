@@ -17,6 +17,5 @@ void jack_bauer(void)
 		hours = i/60;
 		minutes = i % 60;
 		printf ("%02d:%02d\n", hours, minutes);
-	}
-	return void;
+}
 }
