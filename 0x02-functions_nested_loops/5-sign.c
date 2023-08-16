@@ -3,7 +3,7 @@
 /**
  *print_sign - print int
  *
- *@c: is the int to be printed
+ *@n: is the int to be printed
  *
  *Return: 1 for positive and 0 for zero and '-1' for negative
  */
