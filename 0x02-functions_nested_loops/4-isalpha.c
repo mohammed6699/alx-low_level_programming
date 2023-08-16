@@ -1,6 +1,8 @@
 /**
  *int _isalpha
  *
+ *@c: is the character to be checked
+ *
  * Return: 1 for alphanetic and 0 for nothing
  */
 int _isalpha(int c)
@@ -13,8 +15,8 @@ int _isalpha(int c)
 	{
 	return (1);
 	}
-	else 
+	else
 	{
 	return (0);
 	}
-}	
+}
