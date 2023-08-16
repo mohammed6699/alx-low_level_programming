@@ -1,13 +1,8 @@
-# include "main.h"
-# include <stdio.h>
+# include "main."
 /**
- * main - check code
+ * _islower - check for lower case
  *
- *islower - checkt the value of c
- *
- * Print - print c_value
- *
- * Return: Always 0 (success)
+ * Return: 1 for lowrcase character and 0 for any thing else
  */
 int _islower(int c)
 {
@@ -18,6 +13,5 @@ return (1);
 else
 {
 return (0);
- _putchar(c);
 }
 }
