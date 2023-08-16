@@ -6,14 +6,15 @@
  */ 
 int main(void)
 {
-    int c;
-c = _islower('H');
-putchar(c+'0');
-c = _islower('o');
-putchar(c + '0');
-c = _islower(108);
-putchar(c + '0');
-putchar('\n');
-return (0);
+int r;
+
+    r = _islower('H');
+    _putchar(r + '0');
+    r = _islower('o');
+    _putchar(r + '0');
+    r = _islower(108);
+    _putchar(r + '0');
+    _putchar('\n');
+    return (0);
 }
 
