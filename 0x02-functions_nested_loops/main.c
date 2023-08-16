@@ -6,16 +6,14 @@
  */ 
 int main(void)
 {
-    print_alphabet_x10();
-    print_alphabet_x10();
-    print_alphabet_x10();
-    print_alphabet_x10();
-    print_alphabet_x10();
-    print_alphabet_x10();
-    print_alphabet_x10();
-    print_alphabet_x10();
-    print_alphabet_x10();
-    print_alphabet_x10();
-	 return (0);
+    int c;
+c = _islower('H');
+putchar(c+'0');
+c = _islower('o');
+putchar(c + '0');
+c = _islower(108);
+putchar(c + '0');
+putchar('\n');
+return (0);
 }
 
