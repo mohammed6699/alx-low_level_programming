@@ -6,9 +6,8 @@
  *
  * Return: -1*n for negative value and n for positive and 0
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
 	if (n < 0)
 	{
 		return (-1*n);
@@ -17,4 +16,4 @@ int _abs(int)
 	{
 		return n;
 	}
-
+}
