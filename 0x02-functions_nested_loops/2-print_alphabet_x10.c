@@ -1,11 +1,8 @@
 # include "main.h"
-# include <stdio.h>
 /**
- * main - check code
+ * print_alphabet_x10 
  *
- * Print - print__alphabet
- *
- * Return: Always 0 (success)
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
