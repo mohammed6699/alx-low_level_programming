@@ -3,6 +3,8 @@
 /**
  * main - check code
  *
+ *islower - checkt the value of c
+ *
  * Print - print c_value
  *
  * Return: Always 0 (success)
