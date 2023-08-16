@@ -8,11 +8,11 @@ int main(void)
 {
 int c;
 c = _islower('H');
-_putchar(c + '0');
+putchar(c + '0');
 c = _islower('o');
-_putchar(c + '0');
+putchar(c + '0');
 c = _islower(108);
-_putchar(c + '0');
+putchar(c + '0');
 putchar('\n');
 return (0);
 }
