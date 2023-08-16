@@ -18,6 +18,6 @@ return (1);
 else
 {
 return (0);
-putchar(c);
+ _putchar(c);
 }
 }
