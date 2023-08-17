@@ -1,16 +1,12 @@
 # include "main.h"
 /**
+ *add-function
  *
+ *@a, b: The variable to be calculated
  *
- *
- *
- *
+ *Return: the sum of a, b
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int a;
-	int b;
-	int result = a+b;
-	printf("%d", result);
-	return (1);
+	return (a+b);
 }
