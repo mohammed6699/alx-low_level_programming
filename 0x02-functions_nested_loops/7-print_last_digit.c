@@ -9,16 +9,16 @@
  */
 int print_last_digit(int c)
 {
+	c = c % 10;
 if (c < 0)
 {
-	c = c % 10;
 	printf ("%d", c);
 	return (-1*c);
 }
 else 
 {
-	c = c % 10;
 	return (c);
 }
+
 return (0);
 }
