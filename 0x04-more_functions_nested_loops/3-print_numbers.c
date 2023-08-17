@@ -8,10 +8,10 @@
  */
 void print_numbers(void)
 {
-	char ch = 0; //* intiallize ch = '0'
-	while(ch <=9) //* check if ch <= '9'
+	char ch = 0;
+	while(ch <=9)
 	{
-		ch++; //* increment for ch
+		ch++; 
 		_putchar (ch);
 	}
 	        _putchar ('\n');
