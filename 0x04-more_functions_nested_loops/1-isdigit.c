@@ -1,6 +1,6 @@
 # include "main.h"
 /**
- *isdigit - to print digits
+ *_isdigit - to print digits
  *
  *@c: the character to be checked
  *
