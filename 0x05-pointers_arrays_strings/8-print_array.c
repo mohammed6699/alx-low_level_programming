@@ -1,4 +1,5 @@
 # include "main.h"
+# include <stdio.h>
 /**
  * print_array(int *a, int n) - function
  *@i: input
@@ -17,4 +18,5 @@ void print_array(int *a, int n)
 	{
 		printf(",");
 	}
+	_putchar('\n');
 }
