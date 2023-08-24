@@ -6,7 +6,7 @@
  * lower charachter to upper character
  * i: input
  * s: string
- * Return: o (success)
+ * Return: s
  */
 char *string_toupper(char *s)
 {
@@ -16,5 +16,5 @@ char *string_toupper(char *s)
 	for (i = 0; i < length; i++)
 
 	s[i] = toupper(s[i]);
-	return 0;
+	return (s);
 }
