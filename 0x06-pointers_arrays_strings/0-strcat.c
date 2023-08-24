@@ -1,7 +1,8 @@
 # include "main.h"
 /**
  * char *_strcat - function to repeate string
- * *dest: destination , *src: source
+ * @dest: inputs
+ * @src: inputs
  * Return: dest
  */
 char *_strcat(char *dest, char *src)
@@ -11,13 +12,13 @@ int y = 0;
 
 while (src[x] != '\0')
 {
-	x++;
+x++;
 }
 while (dest[y] != '\0')
 {
-	y++;
+src[y] = dest[x];
+y++;
 }
-src[x] = dest[y];
-src[x] = '\0';
-return (src);
+src[y] = '\0';
+return (dest);
 }
