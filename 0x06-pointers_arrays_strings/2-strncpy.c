@@ -1,5 +1,5 @@
 # include "main.h"
-/***
+/**
  *  _strncpy - copy string
  * @dset: input
  * @src: input
@@ -8,17 +8,14 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-int x = 0;
+int x;
 
-        while (x < n && src[x] != '\0')
-        {
-            src[x] == dest[x];
-            x++;
-        }
-        while (x < n)
-        {
-           
-            x++;
-        }        
+for (x = 0; x < n && src[x] != '\0'; x++)
+dest[x] = src[x];
+while (x < n)
+{
+dest[x] = '\0';
+x++;
+}
 return (dest);
 }
