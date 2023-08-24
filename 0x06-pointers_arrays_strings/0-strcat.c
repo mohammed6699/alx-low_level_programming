@@ -18,5 +18,6 @@ while (dest[y] != '\0')
 	y++;
 }
 src[x] = dest[y];
+src[x] = '\0';
 return (src);
 }
