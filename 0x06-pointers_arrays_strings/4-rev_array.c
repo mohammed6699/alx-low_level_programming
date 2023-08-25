@@ -1,17 +1,19 @@
 # include "main.h"
 /**
  *reverse_array - function to reverse array
- * a : pointer
- * X, Y : inputs
- * n: size af array
+ * a: array we want to print
+ * n: length af array
  *Return: void
  */
 void reverse_array(int *a, int n)
 {
 	int i;
-
-	for (i = n - 1; i >= 0; i--)
+	int j;
+	
+	for (i = 0; i < n--; i++)
 	{
-	 _putchar(a[i]);
+	 j = a[i];
+	 a[i] = a[n];
+	 a[n] = j;
 	}
 }
