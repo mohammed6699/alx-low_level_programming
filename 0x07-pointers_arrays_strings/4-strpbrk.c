@@ -7,7 +7,12 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	char *temp;
+	 char *temp;
+	
+	if (s == NULL || accept == NULL)
+	{
+		return (NULL);
+	}
 
 	while (*s != '\0')
 	{
