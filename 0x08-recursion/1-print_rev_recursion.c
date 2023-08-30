@@ -2,7 +2,7 @@
 # include <string.h>
 /**
  * _print_rev_recursion - function that prints a string in reverse
- * s: string
+ * @s: string
  * Description: to print the string in reverse
  * Return: void
  */
