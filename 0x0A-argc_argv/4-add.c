@@ -13,13 +13,16 @@
 
 int main(int argc, char *argv[])
 {
-	int num1, num2, sum;
+	int num1, num2, num3, num4, num5,  sum;
 
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
-	sum = num1 + num2;
+	num3 = atoi(argv[3]);
+	num4 = atoi(argv[4]);
+	num5 = atoi(argv[5]);
+	sum = num1 + num2 + num3 + num4 + num5;
 
-	if (argc != 7)
+	if (argc != 5)
 	{
 		printf("Error\n");
 			return (1);
