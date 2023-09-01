@@ -1,5 +1,6 @@
 # include "main.h"
 # include <stdio.h>
+
 /**
  * main - function to calculate the add of 2 int
  * @argc: argumenr count
@@ -19,16 +20,16 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[2]);
 	sum = num1 + num2;
 
-	if (argc != 3)
+	if (*argv[0] == 1)
 	{
-		printf("Error\n");
-			return (1);
+		return (0);
 	}
-	if (num1 == 'a' || num2 == 'z')
+	if (num1 == 'A' || num1 == 'Z')
 	{
 		printf("%d\n", 0);
 		return (1);
 	}
+	(void)argc;
 	printf("%d\n", sum);
 	return (0);
 }
