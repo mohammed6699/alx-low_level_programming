@@ -17,18 +17,22 @@ int main(int argc, char *argv[])
 	int num2 = atoi(argv[2]);
 	int sum = num1 + num2;
 
-	if (*argv[1] == 'a' || *argv[2] == 'z')
+	if(num1 == 'A' && num1 == 'Z')
 	{
 		printf("Error\n");
+		if (num1 == 'a' || num2 == 'z')
+		{
+			printf("Error\n");
+		}
 		return(1);
-	}
-	else if(argc <= 1)
-	{
-		printf("%d\n", argc - 1);
 	}
 	else
 	{
-			printf("%d\n", sum);
+		printf("%d\n", sum);
+	}
+	if (argc >= 0)
+	{
+		printf("%d\n", argc - 1);
 	}
 	return(0);
 }
