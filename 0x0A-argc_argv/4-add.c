@@ -13,7 +13,7 @@
 
 int main(int argc, char *argv[])
 {
-	int num1, num2, num3, num4, num5,  sum;
+	int num1, num2, sum;
 
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
