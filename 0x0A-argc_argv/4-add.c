@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[2]);
 	sum = num1 + num2;
 
-	if (argc != 3)
+	if (argc != 7)
 	{
 		printf("Error\n");
 			return (1);
