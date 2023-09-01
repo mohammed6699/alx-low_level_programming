@@ -13,26 +13,22 @@
 
 int main(int argc, char *argv[])
 {
-	int num1 = atoi(argv[1]);
-	int num2 = atoi(argv[2]);
-	int sum = num1 + num2;
+	int num1, num2, sum;
 
-	if(num1 == 'A' && num1 == 'Z')
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	sum = num1 + num2;
+
+	if (argc != 3)
 	{
 		printf("Error\n");
-		if (num1 == 'a' || num2 == 'z')
-		{
-			printf("Error\n");
-		}
-		return(1);
+			return (1);
 	}
-	else
+	if (num1 == 'a' || num2 == 'z')
 	{
-		printf("%d\n", sum);
+		printf("%d\n", 0);
+		return (1);
 	}
-	if (argc >= 0)
-	{
-		printf("%d\n", argc - 1);
-	}
-	return(0);
+	printf("%d\n", sum);
+	return (0);
 }
