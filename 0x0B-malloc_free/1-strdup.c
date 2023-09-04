@@ -2,10 +2,10 @@
 # include <stdlib.h>
 /**
  * *_strdup - function return a pointer to a new allocated array
- * @i: input
- * @n: size
- * *m: char
- * *str: pointer name
+ * i: input
+ * n: size
+ * m: char
+ * @str: pointer name
  * Description: function that return a pointer to a new allocated array
  * Return: pointer
  */
@@ -19,8 +19,8 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (n = 0; str[n] != '\0'; n++);
-
+	for (n = 0; str[n] != '\0'; n++)
+		;
 	m = (char *)malloc(n * sizeof(char));
 	if (m == NULL)
 		return (NULL);
