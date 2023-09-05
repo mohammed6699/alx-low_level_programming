@@ -3,6 +3,7 @@
 
 /**
  * free_grid - function to free the 2d array
+ * allocated by alloc_grid()
  * i: input
  * @height: input
  * @grid: 2d array pointer to pointer to int
@@ -13,8 +14,11 @@ void free_grid(int **grid, int height)
 {
 int i;
 
-grid = malloc(sizeof(int *) * height);
-for (i = 0; i < height; i++)
+if (grid == NULL)
+	return;
+
+for (i = 0; i < height; i++){
 	free(grid[i]);
+}
 	free(grid);
 }
