@@ -2,9 +2,10 @@
 #include "3-calc.h"
 
 /**
- * get_op_func - function to chose function to create
+ * *get_op_func - function to chose function to create
  * @int: argumrnt1
- * s: operator
+ * @s: operator
+ * Return: i
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -16,10 +17,9 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-
 	int i = 0;
+
 	while (ops[i].op != NULL && *(ops[i].op) != *s)
 		i++;
-
 	return (ops[i].f);
 }
