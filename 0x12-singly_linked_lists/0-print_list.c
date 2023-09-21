@@ -4,7 +4,7 @@
 
 /**
  * print_list - function that print all element in list-t
- * @: pointer
+ * @h: pointer
  * i: input
  * Description: function that prints all element in the list
  * Return: i
@@ -16,11 +16,11 @@ size_t print_list(const list_t *h)
 
 	while (h)
 	{
-		if (!h -> str)
+		if (!h->str)
 			printf("[0] (nil)");
 		else
-			printf("[%u] %s\n", h -> len, h -> str);
-		h = h -> next;
+			printf("[%u] %s\n", h->len, h->str);
+		h = h->next;
 		i++;
 	}
 	return (i);
