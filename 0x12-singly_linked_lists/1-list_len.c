@@ -6,7 +6,7 @@
  * @h: pointer to a struct
  * count: input
  * Descrition: function that returns the length os list
- * return: length
+ * Return: length
  */
 
 size_t list_len(const list_t *h)
