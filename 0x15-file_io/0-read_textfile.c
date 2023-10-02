@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * read_textfile - function that that reads a text file 
+ * read_textfile - function that that reads a text file
  * @filename: file name
  * @letters: size of the file
  * f: file
@@ -21,14 +21,14 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t w;
 	ssize_t r;
 
-	f = open (filename, O_RDONLY);
+	f = open(filename, O_RDONLY);
 	if (f == -1)
 		return (0);
 
 	file = malloc(sizeof(char) * letters);
 
 	r = read(f, file, letters);
-	w = write (STDOUT_FILENO, file, r);
+	w = write(STDOUT_FILENO, file, r);
 
 	free(file);
 	close(f);
