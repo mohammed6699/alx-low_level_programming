@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * create_file: function tha creates a file
+ * create_file - function tha creates a file
  * @filename: name of the file
  * @text_content: NULL terminated string to write to the file
+ * ptrf: pointer to the file
+ * result: argumnet
  * Descrtion: fuction tha creates a file
  * Return: (0) success
  */
