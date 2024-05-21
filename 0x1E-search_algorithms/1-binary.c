@@ -43,10 +43,13 @@ int binary_search_recursive(int *array, size_t low, size_t high, int value)
         }
         else if (array[mid] > value)
         {
+		/*goess right*/
+
                 return (binary_search_recursive(array, low, mid - 1, value));
         }
         else
         {
+		/*goes left*/
                 return (binary_search_recursive(array, mid + 1, high, value));
         }
 }
