@@ -8,7 +8,9 @@
 int binary_search(int *array, size_t size, int value)
 {
 	if (array == NULL)
+	{
 		return (-1);
+	}
 	return (binary_search_recursive(array, 0, size - 1, value));
 }
 
@@ -21,11 +23,13 @@ int binary_search(int *array, size_t size, int value)
  */
 int binary_search_recursive(int *array, size_t low, size_t high, int value)
 {
-        size_t mid = low + (high - low)/2;
+        size_t mid = low + (high - low) / 2;
         size_t i;
 
         if (low > high)
+	{
                 return (-1);
+	}
 
         printf("searching in array: ");
 
